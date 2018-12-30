@@ -8,4 +8,4 @@ AIST CCFinderX is a code-clone detector, which detects code clones (duplicated c
 
 ### Original doc
 
-Original documentation will be migrated to [wiki](https://github.com/jbanaszczyk/CCFinderX/wiki)
+Original documentation is available as [wiki](https://github.com/jbanaszczyk/CCFinderX/wiki)
