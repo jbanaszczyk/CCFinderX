@@ -47,7 +47,8 @@ int main(int argc, char *argv[])
 	using namespace std;
 
 	vector<string> argvec;
-	for_each(argv, argv + argc, boost::bind(&vector<string>::push_back, &argvec, _1));
+	// for_each(argv, argv + argc, boost::bind(&vector<string>::push_back, &argvec, _1)); 
+    std::for_each(argv, argv + argc, boost::bind(static_cast<void (std::vector<std::string>::*) (const std::string&)> (&std::vector<std::string>::push_back), &argvec, _1)); // FIX Issue #1
 
 	string outputFile;
 	for (size_t i = 0; i < argvec.size(); ++i) {

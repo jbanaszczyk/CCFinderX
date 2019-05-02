@@ -2702,7 +2702,8 @@ int main(int argc, char *argv[])
 	}
 
 	std::vector<std::string> argvec;
-	std::for_each(argv, argv + argc, boost::bind(&std::vector<std::string>::push_back, &argvec, _1));
+//	std::for_each(argv, argv + argc, boost::bind(&std::vector<std::string>::push_back, &argvec, _1));
+    std::for_each(argv, argv + argc, boost::bind(static_cast<void (std::vector<std::string>::*) (const std::string&)> (&std::vector<std::string>::push_back), &argvec, _1)); // FIX Issue #1
 	int r = expand_command_file(&argvec);
 	if (r != 0) {
 		return r;

@@ -16,8 +16,10 @@
 #if _MSC_VER >= 1500
 
 #include <unordered_map>
-#define HASH_MAP std::tr1::unordered_map
-#define HASH_COMPARE std::tr1::hash
+// #define HASH_MAP std::tr1::unordered_map
+// #define HASH_COMPARE std::tr1::hash
+#define HASH_MAP std::unordered_map  // FIX Issue #1
+#define HASH_COMPARE std::hash       // FIX Issue #1
 
 #else
 

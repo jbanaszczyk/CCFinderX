@@ -88,7 +88,8 @@ public:
 #if ! defined NO_HASH_THINGS
 
 #if defined _MSC_VER
-class reppos_hash_compare : public HASH_COMPARE<reppos>
+// class reppos_hash_compare : public HASH_COMPARE<reppos>
+class reppos_hash_compare // FIX Issue #1
 #else
 class reppos_hash_compare
 #endif
