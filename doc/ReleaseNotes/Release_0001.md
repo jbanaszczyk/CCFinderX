@@ -4,7 +4,7 @@
 
 The goal is: to compile CcFinderX
 * Platform: Windows 32
-* Toolchain: 
+* Toolchain:
   * Visual Studio 2017 (v14.1) Community Edition
   * IntelliJ Ultimate 2019.1 (probably Community Edition would be enough)
 * Libraries:
@@ -17,7 +17,7 @@ The goal is: to compile CcFinderX
 ## Folders
 
 Location of library folders will be changed in the future, for now lets copy libraries to `libs` subfolder as is.
-  
+
 ## Libraries
 
 ### Boost 1.70
@@ -29,6 +29,31 @@ Download and install both:
 * boost_1_70_0-msvc-14.1-32.exe
 * installation folder (relatively to project folder):
   * libs\boost_1_70_0
+
+Edit file: `libs\boost_1_70_0\boost\system\detail\config.hpp`
+
+Before:
+```CPP
+#if defined(__has_cpp_attribute)
+#if __has_cpp_attribute(clang::require_constant_initialization)
+# undef BOOST_SYSTEM_REQUIRE_CONST_INIT
+# define BOOST_SYSTEM_REQUIRE_CONST_INIT [[clang::require_constant_initialization]]
+#endif
+#endif
+```
+
+After
+```CPP
+#if defined(__has_cpp_attribute)
+#if !defined(_MSC_VER)
+#if __has_cpp_attribute(clang::require_constant_initialization)
+# undef BOOST_SYSTEM_REQUIRE_CONST_INIT
+# define BOOST_SYSTEM_REQUIRE_CONST_INIT [[clang::require_constant_initialization]]
+#endif
+#endif
+#endif
+
+```
 
 ### ICU4C 59.1
 
@@ -63,7 +88,7 @@ Copy python.dll:
 
 (temporary) Make `_d` libs http://gwyddion.net/documentation/user-guide-en/installation-compiling-msvc.html:
 * copy c:\Python27\win32\libs\python27.lib c:\Python27\win32\libs\python27_d.lib
-* copy c:\Python27\x64\libs\python27.lib c:\Python27\x64\libs\python27_d.lib 
+* copy c:\Python27\x64\libs\python27.lib c:\Python27\x64\libs\python27_d.lib
 
 Edit both `pyconfig.h` - comment out `#define Py_DEBUG`
 * win32\include\pyconfig.h
