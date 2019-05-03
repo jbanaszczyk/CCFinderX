@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IgnoreWarnIntDirInTempDetected>true</IgnoreWarnIntDirInTempDetected>
+    <OutDir>$(SolutionDir)ipch\output\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)ipch\intermediate\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalOptions>/std:c++14 %(AdditionalOptions)</AdditionalOptions>
+      <PreprocessorDefinitions>BUILD_TORQEXE;_BUILD_PICOSELLIB;REPDET_TEST_MAIN;OS_WIN32;LITTLE_ENDIAN;CXLM_NO_ENC;CODE_CONVERSION_SUPPORT;WSTRING_CONVERSION_SUPPORT;REQUIRE_RNR;NOLOCK_WRITE;CCFX_TOKEN_32BIT;_SCL_SECURE_NO_WARNINGS=1;_CRT_SECURE_NO_WARNINGS=1;VER_TARGETNAME_STR=$(TargetFileName);_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+	    <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <ConformanceMode>false</ConformanceMode>
+      <OpenMPSupport>true</OpenMPSupport>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>psapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)$(ProjectName).pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <StackReserveSize>4194304</StackReserveSize>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <OutputFile>$(OutDir)$(ProjectName)$(TargetExt)</OutputFile>
+    </Link>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_UNICODE;UNICODE;VER_TARGETNAME_STR=$(TargetFileName);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <BuildLog>
+      <Path>$(SolutionDir)ipch\$(ProjectName).log</Path>
+    </BuildLog>
+  </ItemDefinitionGroup>
+</Project>
