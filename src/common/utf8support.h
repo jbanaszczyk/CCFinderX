@@ -73,7 +73,7 @@ public:
 		: pCnv(NULL), encodingName()
 	{
 		UErrorCode error = U_ZERO_ERROR;
-		pCnv = ucnv_open(NULL, &error);
+		pCnv = ucnv_open("utf-8", &error); // Issue #3
 	}
 	Decoder(const Decoder &rhs)
 		: pCnv(NULL), encodingName()
