@@ -2,21 +2,32 @@
   <PropertyGroup>
     <IcuDir>$(SolutionDir)..\..\libs\icu-59.1</IcuDir>
   </PropertyGroup>
-
   <PropertyGroup Condition="'$(Platform)'=='Win32'">
     <IcuDirLib>$(IcuDir)\lib</IcuDirLib>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Platform)'=='x64'">
     <IcuDirLib>$(IcuDir)\lib64</IcuDirLib>
   </PropertyGroup>
-
   <ItemDefinitionGroup>
     <ClCompile>
       <AdditionalIncludeDirectories>$(IcuDir)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>U_STATIC_IMPLEMENTATION;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>$(IcuDirLib);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>icudt.lib;icuin.lib;icuio.lib;icutu.lib;icuuc.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
+
+  <ItemDefinitionGroup Condition="'$(Configuration)'=='Debug'">
+    <Link>
+      <AdditionalDependencies>sicudtd.lib;sicuind.lib;sicuiod.lib;sicutud.lib;sicuucd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+
+  <ItemDefinitionGroup Condition="'$(Configuration)'=='Release'">
+    <Link>
+      <AdditionalDependencies>sicudt.lib;sicuin.lib;sicuio.lib;sicutu.lib;sicuuc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+
 </Project>
