@@ -94,7 +94,27 @@ Edit both `pyconfig.h` - comment out `#define Py_DEBUG`
 * win32\include\pyconfig.h
 * x64\include\pyconfig.h
 
-Copy both Pythons to `libs` subdirectory (relatively to project folder):
+Copy both Pythons to `libs` subdirectory (relatively to project folder).
+
+### SWT 4.9 (Standard Widget Toolkit)
+
+Download from http://download.eclipse.org/eclipse/downloads/drops4/R-4.9-201809060745/ (bottom of the page)
+
+Download and unpack both 32-bit and 64-bit Windows versions
+
+
+
+### PathHSON
+
+Download and add as `libs\PathJSON\pathjson.jar`: https://github.com/jbanaszczyk/CCFinderX/blob/master/libs/PathJSON/pathjson.jar
+
+### Trove 2.0.1
+
+Download from https://sourceforge.net/projects/trove4j/files/trove/2.1.0/
+
+Unpack as `libs\trove-2.1.0`
+
+Latest version is available, not tested yet: https://bitbucket.org/trove4j/trove/downloads/
 
 ### Result
 
@@ -135,24 +155,40 @@ Copy both Pythons to `libs` subdirectory (relatively to project folder):
 |     \--jre1.8.0_211
 |        +--bin
 |        \--lib
-\--Python2
-   +--win32
-   |  +--DLLs
-   |  +--Doc
-   |  +--include
-   |  +--Lib
-   |  +--libs
-   |  +--Scripts
-   |  +--tcl
-   |  \--Tools
-   \--x64
-      +--DLLs
-      +--Doc
-      +--include
-      +--Lib
-      +--libs
-      +--Scripts
-      +--tcl
-      \--Tools
++--PathJSON
++--Python2
+|  +--win32
+|  |  +--DLLs
+|  |  +--Doc
+|  |  +--include
+|  |  +--Lib
+|  |  +--libs
+|  |  +--Scripts
+|  |  +--tcl
+|  |  \--Tools
+|  \--x64
+|     +--DLLs
+|     +--Doc
+|     +--include
+|     +--Lib
+|     +--libs
+|     +--Scripts
+|     +--tcl
+|     \--Tools
++--swt
+|  +--swt-4.9-win32-win32-x86
+|  |  \--about_files
+|  \--swt-4.9-win32-win32-x86_64
+|     \--about_files
+\--trove-2.1.0
+   +--javadocs
+   |  +--gnu
+   |  +--index-files
+   |  \--resources
+   +--lib
+   +--src
+   |  \--gnu
+   \--test
+      \--gnu
 
 ```
