@@ -143,6 +143,12 @@ JNIEXPORT jstring JNICALL Java_ccfinderx_CCFinderX_getCCFinderXPath
 	std:: string exeFile = *oModuleDir + file_separator() + "ccfx";
 #endif
 
+    const char *p = getenv("CCFX_PATH");
+    if ( p != NULL )
+    {
+        exeFile = p;
+    }
+
 	std:: string exeFileUtf8 = SYS2INNER(exeFile);
 	//for (size_t i = 0; i < exeFile.length(); ++i) {
 	//	int ch = exeFile[i];
@@ -260,6 +266,12 @@ int exec_ccfx(const std:: vector<std:: string> &argsUtf8)
 #elif defined OS_UNIX
 	std:: string arg0 = *oModuleDir + file_separator() + "ccfx";
 #endif
+
+    const char *p = getenv("CCFX_PATH");
+    if (p != NULL)
+    {
+        arg0 = p;
+    }
 
 	ArgvBuilder argv;
 	argv.push_back(arg0);
