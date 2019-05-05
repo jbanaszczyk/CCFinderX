@@ -10,7 +10,7 @@
   <ItemDefinitionGroup>
     <ClCompile>
       <AdditionalOptions>/std:c++14 %(AdditionalOptions)</AdditionalOptions>
-      <PreprocessorDefinitions>BUILD_TORQEXE;_BUILD_PICOSELLIB;REPDET_TEST_MAIN;OS_WIN32;LITTLE_ENDIAN;CXLM_NO_ENC;CODE_CONVERSION_SUPPORT;WSTRING_CONVERSION_SUPPORT;REQUIRE_RNR;NOLOCK_WRITE;CCFX_TOKEN_32BIT;_SCL_SECURE_NO_WARNINGS=1;_CRT_SECURE_NO_WARNINGS=1;VER_TARGETNAME_STR=$(TargetFileName);_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>EASYTORQ_TEST_MAIN;BUILD_TORQEXE;_BUILD_PICOSELLIB;REPDET_TEST_MAIN;OS_WIN32;LITTLE_ENDIAN;CXLM_NO_ENC;CODE_CONVERSION_SUPPORT;WSTRING_CONVERSION_SUPPORT;REQUIRE_RNR;NOLOCK_WRITE;CCFX_TOKEN_32BIT;_SCL_SECURE_NO_WARNINGS=1;_CRT_SECURE_NO_WARNINGS=1;VER_TARGETNAME_STR=$(TargetFileName);_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
 	    <WarningLevel>Level3</WarningLevel>
       <SDLCheck>false</SDLCheck>
       <ConformanceMode>false</ConformanceMode>

@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{817213E9-459A-4E06-A339-7947CE6BC02C}</ProjectGuid>
-    <RootNamespace>pyeasytorq</RootNamespace>
+    <RootNamespace>easytorq</RootNamespace>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -95,11 +95,11 @@
   <ItemGroup>
     <ClCompile Include="..\common\unportable.cpp" />
     <ClCompile Include="..\common\utf8support.cpp" />
-    <ClCompile Include="..\easytorq\easytorq.cpp" />
     <ClCompile Include="..\torq\interpreter.cpp" />
     <ClCompile Include="..\torq\texttoken.cpp" />
     <ClCompile Include="..\torq\torqcommon.cpp" />
-    <ClCompile Include="pyeasytorq.cpp" />
+    <ClCompile Include="easytorq.cpp" />
+    <ClCompile Include="easytorq_base.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\common\unportable.h" />

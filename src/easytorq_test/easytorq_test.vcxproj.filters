@@ -15,51 +15,48 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\easytorq\easytorq.cpp">
+    <ClCompile Include="..\easytorq\easytorq_base.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\torq\interpreter.cpp">
+    <ClCompile Include="..\interpreter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="pyeasytorq.cpp">
+    <ClCompile Include="..\texttoken.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\torq\texttoken.cpp">
+    <ClCompile Include="..\torqcommon.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\torq\torqcommon.cpp">
+    <ClCompile Include="..\..\common\unportable.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\common\unportable.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\common\utf8support.cpp">
+    <ClCompile Include="..\..\common\utf8support.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\easytorq\easytorq.h">
+    <ClInclude Include="easytorq.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\torq\interpreter.h">
+    <ClInclude Include="..\interpreter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\torq\texttoken.h">
+    <ClInclude Include="..\texttoken.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\torq\torqcommon.h">
+    <ClInclude Include="..\torqcommon.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\torq\torqparser.h">
+    <ClInclude Include="..\torqparser.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\torq\torqtokenizer.h">
+    <ClInclude Include="..\torqtokenizer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\common\unportable.h">
+    <ClInclude Include="..\..\common\unportable.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\common\utf8support.h">
+    <ClInclude Include="..\..\common\utf8support.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -13,7 +13,7 @@
 #include "../torq/texttoken.h"
 #include "../torq/interpreter.h"
 
-#include "easytorq.h"
+#include "easytorq_base.h"
 
 namespace {
 

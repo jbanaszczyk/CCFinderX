@@ -1,4 +1,4 @@
-// pyeasytorq.cpp : DLL アプリケーションのエントリ ポイントを定義します。
+// easytorq.cpp : DLL アプリケーションのエントリ ポイントを定義します。
 //
 
 #include <cassert>
@@ -12,7 +12,7 @@
 
 #include <unicode/uversion.h>
 
-#include "../easytorq/easytorq.h"
+#include "easytorq_base.h"
 #include "../common/utf8support.h"
 
 #if defined _MSC_VER
