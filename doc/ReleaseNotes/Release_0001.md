@@ -60,7 +60,20 @@ After
 https://www.npcglib.org/~stathis/blog/precompiled-icu/
 
 Unpack to (relatively to project folder)
-* libs\icu-59.1
+* libs\ICU4C-59.1
+
+### ICU4J 59.1
+
+https://github.com/unicode-org/icu/releases/tag/release-59-2
+
+Download:
+* [icu4j-59_2.jar](https://github.com/unicode-org/icu/releases/download/release-59-2/icu4j-59_2.jar)
+* [icu4j-charset-59_2.jar](https://github.com/unicode-org/icu/releases/download/release-59-2/icu4j-charset-59_2.jar)
+* [icu4j-localespi-59_2.jar](https://github.com/unicode-org/icu/releases/download/release-59-2/icu4j-localespi-59_2.jar)
+
+into (relatively to project folder):
+* libs\ICU4J-59.1
+
 
 ### JDK 8u211
 
@@ -103,7 +116,6 @@ Download from http://download.eclipse.org/eclipse/downloads/drops4/R-4.9-2018090
 Download and unpack both 32-bit and 64-bit Windows versions
 
 
-
 ### PathHSON
 
 Download and add as `libs\PathJSON\pathjson.jar`: https://github.com/jbanaszczyk/CCFinderX/blob/master/libs/PathJSON/pathjson.jar
@@ -129,13 +141,15 @@ Latest version is available, not tested yet: https://bitbucket.org/trove4j/trove
 |  +--more
 |  +--status
 |  \--tools
-+--icu-59.1
++--ICU4C-59.1
 |  +--bin
 |  +--bin64
 |  +--data
 |  +--include
+|  |  \--unicode
 |  +--lib
 |  \--lib64
++--ICU4J-59.1
 +--Java
 |  +--win32
 |  |  +--jdk1.8.0_211

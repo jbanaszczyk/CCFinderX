@@ -267,7 +267,7 @@ int exec_ccfx(const std:: vector<std:: string> &argsUtf8)
 	std:: string arg0 = *oModuleDir + file_separator() + "ccfx";
 #endif
 
-    const char *p = getenv("CCFX_PATH");
+    const char *p = getenv("CCFINDERX_CCFX_PATH");
     if (p != NULL)
     {
         arg0 = p;

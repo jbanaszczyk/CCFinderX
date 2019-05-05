@@ -15,8 +15,6 @@ public class CCFinderX {
 	public native boolean isProcessAlive(int processId);
 	
 	static {
-		System.out.println(System.getProperty("java.library.path"));
-
 		System.loadLibrary("CCFinderXLib"); //$NON-NLS-1$
 	}
 	

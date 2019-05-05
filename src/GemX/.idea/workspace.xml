@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="GemX:jar-win32" />
+      <artifact name="GemX:jar-x64" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="58dd60b5-5817-41b6-9bb4-d60a88b8e239" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../doc/ReleaseNotes/Release_0001.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../doc/ReleaseNotes/Release_0001.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CCFinderX/CCFinderX_icu.props" beforeDir="false" afterPath="$PROJECT_DIR$/../CCFinderX/CCFinderX_icu.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CCFinderXLib/CCFinderXLib.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../CCFinderXLib/CCFinderXLib.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildjar.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../static_files/buildjar.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildjar_debug.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../static_files/buildjar_debug.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ccfinderx/CCFinderX.java" beforeDir="false" afterPath="$PROJECT_DIR$/ccfinderx/CCFinderX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icu4j-4_0_1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icu4j-charsets-4_0_1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icu4j-localespi-4_0_1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/makeCCFinderXHeader.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../static_files/makeCCFinderXHeader.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static_files/ccfx_prep_scripts.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../static_files/files/ccfx_prep_scripts.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static_files/colors.json" beforeDir="false" afterPath="$PROJECT_DIR$/../static_files/files/colors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static_files/gemx.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../static_files/files/gemx.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static_files/res/icons/cancel.png" beforeDir="false" afterPath="$PROJECT_DIR$/../static_files/files/res/icons/cancel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static_files/res/icons/down.png" beforeDir="false" afterPath="$PROJECT_DIR$/../static_files/files/res/icons/down.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static_files/res/icons/logonew.ico" beforeDir="false" afterPath="$PROJECT_DIR$/../static_files/files/res/icons/logonew.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static_files/res/icons/search.png" beforeDir="false" afterPath="$PROJECT_DIR$/../static_files/files/res/icons/search.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static_files/res/icons/up.png" beforeDir="false" afterPath="$PROJECT_DIR$/../static_files/files/res/icons/up.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static_files/scripts/ccfxconfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/../static_files/files/scripts/ccfxconfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static_files/scripts/easytorq_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/../static_files/files/scripts/easytorq_helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static_files/scripts/moduleloadutility.py" beforeDir="false" afterPath="$PROJECT_DIR$/../static_files/files/scripts/moduleloadutility.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static_files/scripts/pp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../static_files/files/scripts/pp/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static_files/scripts/pp/cobol.py" beforeDir="false" afterPath="$PROJECT_DIR$/../static_files/files/scripts/pp/cobol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static_files/scripts/pp/cpp.py" beforeDir="false" afterPath="$PROJECT_DIR$/../static_files/files/scripts/pp/cpp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static_files/scripts/pp/csharp.py" beforeDir="false" afterPath="$PROJECT_DIR$/../static_files/files/scripts/pp/csharp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static_files/scripts/pp/java.py" beforeDir="false" afterPath="$PROJECT_DIR$/../static_files/files/scripts/pp/java.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static_files/scripts/pp/plaintext.py" beforeDir="false" afterPath="$PROJECT_DIR$/../static_files/files/scripts/pp/plaintext.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static_files/scripts/pp/preprocessor.py" beforeDir="false" afterPath="$PROJECT_DIR$/../static_files/files/scripts/pp/preprocessor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static_files/scripts/pp/visualbasic.py" beforeDir="false" afterPath="$PROJECT_DIR$/../static_files/files/scripts/pp/visualbasic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static_files/scripts/preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/../static_files/files/scripts/preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static_files/scripts/prescreening.py" beforeDir="false" afterPath="$PROJECT_DIR$/../static_files/files/scripts/prescreening.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static_files/scripts/pythonversionchecker.py" beforeDir="false" afterPath="$PROJECT_DIR$/../static_files/files/scripts/pythonversionchecker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static_files/scripts/testthreadingutil.py" beforeDir="false" afterPath="$PROJECT_DIR$/../static_files/files/scripts/testthreadingutil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static_files/scripts/threadingutil.py" beforeDir="false" afterPath="$PROJECT_DIR$/../static_files/files/scripts/threadingutil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static_files/scripts/utility.py" beforeDir="false" afterPath="$PROJECT_DIR$/../static_files/files/scripts/utility.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static_files/scripts/win32getshortname.py" beforeDir="false" afterPath="$PROJECT_DIR$/../static_files/files/scripts/win32getshortname.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static_files/tools/clonedatareader.py" beforeDir="false" afterPath="$PROJECT_DIR$/../static_files/files/tools/clonedatareader.py" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/utility/BitArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ccfinderx/CCFinderX.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/trove_2_1_0.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1645" />
+    <option name="y" value="1" />
+    <option name="width" value="1666" />
+    <option name="height" value="1446" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GemX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GemX" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GemX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GemX" type="462c0819:PsiDirectoryNode" />
+              <item name="ccfinderx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GemX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GemX" type="462c0819:PsiDirectoryNode" />
+              <item name="gemx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GemX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GemX" type="462c0819:PsiDirectoryNode" />
+              <item name="gemx" type="462c0819:PsiDirectoryNode" />
+              <item name="dialogs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GemX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GemX" type="462c0819:PsiDirectoryNode" />
+              <item name="utility" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../libs/swt/swt-4.9-win32-win32-x86/swt.jar!/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.GemXMain win32">
+    <configuration name="GemXMain win32" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8 win32" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <envs>
+        <env name="CCFINDERX_CCFX_PATH" value="D:\GitHub\CCFinderX\bin\win32\Debug\ccfx.exe" />
+        <env name="Parh" value="D:\GitHub\CCFinderX\bin\win32\Debug" />
+        <env name="CCFINDERX_PYTHON_INTERPRETER_PATH" value="c:\Python27\32\python.exe" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="GemXMain" />
+      <module name="GemX" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../bin/win32/Debug" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GemXMain x64" type="Application" factoryName="Application" temporary="true">
+      <envs>
+        <env name="CCFINDERX_CCFX_PATH" value="D:\GitHub\CCFinderX\bin\x64\Debug\ccfx.exe" />
+        <env name="Parh" value="D:\GitHub\CCFinderX\bin\x64\Debug" />
+        <env name="CCFINDERX_PYTHON_INTERPRETER_PATH" value="c:\Python27\64\python.exe" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="GemXMain" />
+      <module name="GemX" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../bin/x64/Debug" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.GemXMain win32" />
+      <item itemvalue="Application.GemXMain x64" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GemXMain x64" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58dd60b5-5817-41b6-9bb4-d60a88b8e239" name="Default Changelist" comment="" />
+      <created>1557054136758</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557054136758</updated>
+      <workItem from="1557054137965" duration="1736000" />
+      <workItem from="1557056396276" duration="1409000" />
+      <workItem from="1557057886153" duration="1541000" />
+      <workItem from="1557066962835" duration="889000" />
+      <workItem from="1557069155547" duration="566000" />
+      <workItem from="1557082510894" duration="599000" />
+      <workItem from="1557087785415" duration="875000" />
+      <workItem from="1557088685258" duration="75000" />
+      <workItem from="1557088845798" duration="2222000" />
+      <workItem from="1557094632673" duration="29000" />
+      <workItem from="1557096003616" duration="33000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9974000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1645" y="1" width="1666" height="1446" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28206724" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32901752" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5006227" side_tool="true" weight="0.32952815" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49937734" weight="0.32901752" />
+      <window_info anchor="bottom" id="Inspection Results" order="13" sideWeight="0.49937734" weight="0.32977912" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/gemx/MainWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3128">
+          <caret line="184" column="13" selection-start-line="184" selection-start-column="13" selection-end-line="184" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gemx/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GemXMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gemx/ClonesetTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="187" column="19" selection-start-line="187" selection-start-column="19" selection-end-line="187" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gemx/dialogs/AboutDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="75" column="42" lean-forward="true" selection-start-line="75" selection-start-column="42" selection-end-line="75" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gemx/dialogs/CloneReDetectionDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2281">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gemx/TextPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="728" column="44" selection-start-line="728" selection-start-column="44" selection-end-line="728" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccfinderx/CCFinderX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utility_Decoder.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/makeCCFinderXHeader.bat" />
+    <entry file="file://$PROJECT_DIR$/utility_Picosel.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccfinderx_CCFinderX.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utility/BitArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>GemX:jar-win32</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8 x64</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>GemX</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>trove-2.1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

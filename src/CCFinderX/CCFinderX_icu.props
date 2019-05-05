@@ -1,6 +1,6 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <IcuDir>$(SolutionDir)..\..\libs\icu-59.1</IcuDir>
+    <IcuDir>$(SolutionDir)..\..\libs\ICU4C-59.1</IcuDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Platform)'=='Win32'">
     <IcuDirLib>$(IcuDir)\lib</IcuDirLib>
