@@ -1,7 +1,9 @@
 ##[ Project specific ]##############################################################################
 /libs/
-/src/CCFinderX/ipch/
+ipch/
 .ccfxprepdir/
+production/
+/data/
 
 ##[ VisualStudio ]##################################################################################
 
@@ -25,11 +27,11 @@ mono_crash.*
 
 # Build results
 [Dd]ebug/
-[Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
 x64/
 x86/
+win32/
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
 bld/
