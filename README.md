@@ -23,9 +23,9 @@ Original documentation is available as [wiki](https://github.com/jbanaszczyk/CCF
   * Existing language parsers should upgraded (C++, Java, C#)
   * Some popular language parsers should be provided (JavaScript, Python)
   * Parsing engine should be changed/extended to use AST
+  * Parsing engine should be changed/extended to use native AST
 * Add new features:
   * UI: directory clustering to show clones groups
   * UI: add AtomiQ style visualisation
 * Minor improvements
   * Remove python from the run time chain
-
