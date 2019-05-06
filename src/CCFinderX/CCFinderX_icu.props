@@ -20,7 +20,7 @@
 
   <ItemDefinitionGroup Condition="'$(Configuration)'=='Debug'">
     <Link>
-      <AdditionalDependencies>sicudtd.lib;sicuind.lib;sicuiod.lib;sicutud.lib;sicuucd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>sicudtd.lib;sicuucd.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
 

@@ -61,7 +61,6 @@
   <ImportGroup Label="CommonSheets">
     <Import Project="$(SolutionDir)\$(SolutionName).props" />
     <Import Project="$(SolutionDir)\$(SolutionName)_boost.props" />
-    <Import Project="$(SolutionDir)\$(SolutionName)_icu.props" />
     <Import Project="$(SolutionDir)\$(SolutionName)_$(Platform).props" />
     <Import Project="$(SolutionDir)\$(SolutionName)_$(Configuration).props" />
   </ImportGroup>
