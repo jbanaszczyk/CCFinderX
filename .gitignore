@@ -1,5 +1,12 @@
 ##[ Project specific ]##############################################################################
-/libs/
+/libs/boost/
+/libs/ICU4C-59.1/
+/libs/ICU4J-59.1/
+/libs/Java/
+/libs/Python2/
+/libs/swt/
+/libs/trove-2.1.0/
+
 ipch/
 .ccfxprepdir/
 production/

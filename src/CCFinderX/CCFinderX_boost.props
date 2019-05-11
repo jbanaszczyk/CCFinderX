@@ -1,12 +1,7 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <BoostDir>$(SolutionDir)..\..\libs\boost_1_70_0</BoostDir>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Platform)'=='Win32'">
-    <BoostDirLib>$(BoostDir)\lib32-msvc-14.1</BoostDirLib>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Platform)'=='x64'">
-    <BoostDirLib>$(BoostDir)\lib64-msvc-14.1</BoostDirLib>
+    <BoostDir>D:\GitHub\CCFinderX\libs\boost</BoostDir>
+    <BoostDirLib>$(BoostDir)\stage\win\$(Platform)\lib</BoostDirLib>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <ClCompile>
