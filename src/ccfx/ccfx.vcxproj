@@ -22,6 +22,7 @@
     <ProjectGuid>{3E27CBC6-FA05-4B95-B5C4-CBC08CFB5665}</ProjectGuid>
     <RootNamespace>ccfx</RootNamespace>
     <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">

@@ -127,9 +127,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="images\console.ico">
-      <Filter>Resource Files</Filter>
-    </Image>
     <Image Include="logo16.ico">
       <Filter>Resource Files</Filter>
     </Image>
@@ -146,6 +143,9 @@
       <Filter>Resource Files</Filter>
     </Image>
     <Image Include="consolev.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="console.ico">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>

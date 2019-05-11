@@ -18,45 +18,45 @@
     <ClCompile Include="..\easytorq\easytorq_base.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\interpreter.cpp">
+    <ClCompile Include="..\common\unportable.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\texttoken.cpp">
+    <ClCompile Include="..\common\utf8support.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\torqcommon.cpp">
+    <ClCompile Include="..\torq\interpreter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\common\unportable.cpp">
+    <ClCompile Include="..\torq\texttoken.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\common\utf8support.cpp">
+    <ClCompile Include="..\torq\torqcommon.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="easytorq.h">
+    <ClInclude Include="..\common\unportable.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\interpreter.h">
+    <ClInclude Include="..\common\utf8support.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\texttoken.h">
+    <ClInclude Include="..\torq\interpreter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\torqcommon.h">
+    <ClInclude Include="..\torq\texttoken.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\torqparser.h">
+    <ClInclude Include="..\torq\torqcommon.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\torqtokenizer.h">
+    <ClInclude Include="..\torq\torqparser.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\common\unportable.h">
+    <ClInclude Include="..\torq\torqtokenizer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\common\utf8support.h">
+    <ClInclude Include="..\easytorq\easytorq_base.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
