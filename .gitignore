@@ -1,6 +1,6 @@
 ##[ Project specific ]##############################################################################
 /libs/boost/
-/libs/ICU4C-59.1/
+/libs/icu/
 /libs/ICU4J-59.1/
 /libs/Java/
 /libs/Python2/
