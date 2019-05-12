@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.572
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ccfx", "..\ccfx\ccfx.vcxproj", "{3E27CBC6-FA05-4B95-B5C4-CBC08CFB5665}"
 EndProject
@@ -20,6 +20,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "easytorq", "..\easytorq\easytorq.vcxproj", "{817213E9-459A-4E06-A339-7947CE6BC02C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "easytorq_test", "..\easytorq_test\easytorq_test.vcxproj", "{68B5E16B-2B13-4B31-A303-A4679B4F8B60}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "static_files", "..\static_files\static_files.vcxproj", "{16ED37D2-E27A-4634-B085-BDA9A402D004}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,6 +103,14 @@ Global
 		{68B5E16B-2B13-4B31-A303-A4679B4F8B60}.Release|win32.Build.0 = Release|Win32
 		{68B5E16B-2B13-4B31-A303-A4679B4F8B60}.Release|x64.ActiveCfg = Release|x64
 		{68B5E16B-2B13-4B31-A303-A4679B4F8B60}.Release|x64.Build.0 = Release|x64
+		{16ED37D2-E27A-4634-B085-BDA9A402D004}.Debug|win32.ActiveCfg = Debug|Win32
+		{16ED37D2-E27A-4634-B085-BDA9A402D004}.Debug|win32.Build.0 = Debug|Win32
+		{16ED37D2-E27A-4634-B085-BDA9A402D004}.Debug|x64.ActiveCfg = Debug|x64
+		{16ED37D2-E27A-4634-B085-BDA9A402D004}.Debug|x64.Build.0 = Debug|x64
+		{16ED37D2-E27A-4634-B085-BDA9A402D004}.Release|win32.ActiveCfg = Release|Win32
+		{16ED37D2-E27A-4634-B085-BDA9A402D004}.Release|win32.Build.0 = Release|Win32
+		{16ED37D2-E27A-4634-B085-BDA9A402D004}.Release|x64.ActiveCfg = Release|x64
+		{16ED37D2-E27A-4634-B085-BDA9A402D004}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

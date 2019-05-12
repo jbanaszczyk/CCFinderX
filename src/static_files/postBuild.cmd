@@ -2,15 +2,22 @@
 
 setlocal
 
+set currDir=%~dp0
+cd %currDir%
+
 set platform=%1
 set config=%2
-
 set destination=..\..\bin\%platform%\%config%
+
+echo ==[ Destination: %platform% %config% ]=======
 
 xcopy /seyiqr files\* %destination%\
 
-copy ..\CCFinderX\production\artifacts\GemX_jar_%platform%\GemX.jar %destination%\
+xcopy /seyiqr ..\..\libs\boost\stage\win\%platform%\lib\*.dll %destination%\
 
-for %%e in (bsc,exp,ilk,lib,pdb,pyc,lastcodeanalysissucceeded) do ( del /s %destination%\*.%%e 2>nul:)
+set icuLib=bin
+if %platform% EQU "x64" set icuLib=bin64
+
+xcopy /seyiqr ..\..\libs\icu\icu4c\%icuLib%\*.dll %destination%\
 
 endlocal
